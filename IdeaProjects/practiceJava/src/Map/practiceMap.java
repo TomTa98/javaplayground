@@ -22,6 +22,11 @@ public class practiceMap {
 
     }
 
+    /**
+     *
+     * @param input
+     * @return a map that counts the occurrences of each item
+     */
     public static Map<Integer, Integer> arrayCountMap(int[] input) {
         Map<Integer, Integer> counts = new HashMap<>();
         int maxCount = 0;
@@ -55,6 +60,13 @@ public class practiceMap {
         }
         return res;
     }
+
+    /**
+     *
+     * @param x
+     * @param arr
+     * @return the count of value X in array ARR
+     */
     public static int valueCountArray(int x, int[] arr){
         int count = 0;
         for (int i = 0; i < arr.length; i++){
@@ -62,6 +74,12 @@ public class practiceMap {
         }
         return count;
     }
+
+    /**
+     *
+     * @param arr
+     * @return the item with highest count in array ARR
+     */
     public static int highestCountArray(int[] arr){
         int count = 0;
         int res = 0;
